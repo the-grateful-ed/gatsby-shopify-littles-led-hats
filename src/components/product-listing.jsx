@@ -1,33 +1,6 @@
 import * as React from "react"
 import { ProductCard } from "./product-card"
-// import { listingContainerStyle } from "./product-listing.module.css"
 
-// // To optimize LCP we mark the first product card as eager so the image gets loaded faster
-// export function ProductListing({ products = [] }) {
-//   return (
-//     <div className={listingContainerStyle}>
-// {products.map((p, index) => (
-//   <ProductCard product={p} key={p.id} eager={index === 0} />
-// ))}
-//     </div>
-//   )
-// }
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 export function ProductListing({ products = [] }) {
   return (
     <div className="bg-gray-50">
@@ -38,12 +11,18 @@ export function ProductListing({ products = [] }) {
               id="details-heading"
               className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
             >
-              The Fine Details
+              Stay Safe and Comfortable in the Dark with Our LED Headlamp Beanie
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-600">
-              Our patented padded snack sleeve construction protects your
-              favorite treats from getting smooshed during all-day adventures,
-              long shifts at work, and tough travel schedules.
+              Our LED Beanie is made with flexible stretch material for maximum
+              comfort during outdoor activities like hiking, jogging, skating,
+              cycling, dog walking, and winter bus waiting. The built-in LED
+              lights provide convenient visibility in dark environments, while
+              the rechargeable Li-ion battery offers a long standby time, making
+              it perfect for all-day adventures. With its 2-in-1 design, you can
+              enjoy wireless Bluetooth headset connection to listen to your
+              favorite songs and make handsfree calls. Stay warm, safe, and
+              connected with our LED Beanie.
             </p>
           </div>
 

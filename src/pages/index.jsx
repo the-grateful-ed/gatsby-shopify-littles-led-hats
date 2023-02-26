@@ -10,6 +10,8 @@ import {
   callToAction,
   deployButton,
 } from "./index.module.css"
+import { Hero } from "../components/hero"
+import {Incentives} from "../components/incentives"
 
 export const query = graphql`
   query {
@@ -24,6 +26,8 @@ export const query = graphql`
 export default function IndexPage({ data }) {
   return (
     <Layout>
+      <Incentives />
+      <Hero />
       <ProductListing products={data?.shopifyCollection?.products} />
     </Layout>
   )

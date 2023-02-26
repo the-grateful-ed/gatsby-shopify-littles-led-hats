@@ -7,3 +7,5 @@ public
 .env
 *.log
 gatsby-node.old.js
+# Local Netlify folder
+.netlify

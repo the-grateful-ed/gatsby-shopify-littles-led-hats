@@ -14,6 +14,7 @@ module.exports = {
     FAST_DEV: true,
   },
   plugins: [
+    "gatsby-plugin-styled-components",
     "gatsby-plugin-postcss",
     {
       resolve: "gatsby-source-shopify",
