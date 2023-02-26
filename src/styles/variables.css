@@ -10,6 +10,7 @@
   --grey-90: #232129;
   --grey-50: #78757a;
   --green-80: #088413;
+  --orange-80: #f57c03;
   --green-50-rgb: 55, 182, 53;
   --white: #ffffff;
 
@@ -54,7 +55,7 @@
   /* role-based tokens */
 
   /* colors */
-  --primary: var(--green-80);
+  --primary: var(--orange-80);
   --background: var(--white);
   --border: var(--black-fade-5);
 
